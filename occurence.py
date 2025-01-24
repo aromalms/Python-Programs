@@ -1,3 +1,4 @@
+#checking the occurence of a character in a string
 String="Hello"
 limit=len(String)
 x="l"
