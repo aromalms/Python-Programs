@@ -1,3 +1,4 @@
+#program to reverse a number
 number=int(input("Enter the Number to be reversed: "))
 String=str(number)
 ans=0

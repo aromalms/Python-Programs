@@ -1,3 +1,4 @@
+#program to print prime numbers within a limit and it count
 limit=int(input("Enter Limit: "))
 count=0
 for i in range (2,limit+1):
