@@ -1,3 +1,4 @@
+#basic dictionary operations
 info={}
 info["name"]="aromal"
 info["place"]="pala"
