@@ -1,3 +1,4 @@
+#Read a string and passes it to a function, then returns the number of uppercase letters and lowercase letters
 def check(str):
     upper=0
     lower=0
