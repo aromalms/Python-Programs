@@ -1,0 +1,12 @@
+#pack method (creating buttons)
+from tkinter import*
+parent=Tk()
+redbutton=Button(parent,text='Black',fg='black')
+redbutton.pack(side=LEFT)
+bluebutton=Button(parent,text='Blue',fg='blue')
+bluebutton.pack(side=RIGHT)
+greenbutton=Button(parent,text='Green',fg='green')
+greenbutton.pack(side=TOP)
+redbutton=Button(parent,text='Red',fg='red')
+redbutton.pack(side=BOTTOM)
+parent.mainloop()
