@@ -1,1 +1,1 @@
-Python Programs for Practise
+Python Programs for Practice
