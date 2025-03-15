@@ -1,12 +1,12 @@
 #concentric circles
 import turtle
-x=turtle.Turtle()
-x.speed(0)
-for i in range(10):
-    x.circle(20*i)
-    x.right(90)
-    x.penup()
-    x.forward(20)
-    x.pendown()
-    x.left(90)
+import math
+t=turtle.Turtle()
+t.speed(0)
+angle=0
+for i in range(200):
+    x=i*math.cos(math.radians(angle))
+    y=i*math.sin(math.radians(angle))
+    t.goto(x,y)
+    angle+=10
 turtle.done()
